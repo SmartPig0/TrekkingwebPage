@@ -1,0 +1,18 @@
+:root {
+    --color-first: #053F5C;
+    --color-second: #429ebd;
+    --color-third: #f27f0c;
+
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-third);
+    background: var(--color-first);
+}
