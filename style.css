@@ -31,20 +31,21 @@ h2 {
     font-size: 30px;
     text-transform: uppercase;
     text-align: center;
-
+    margin-bottom: 10px;
 }
 
 h3 {    
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: underline;
     cursor: pointer;    
     line-height: 25px;    
     text-align: center;
-   
+    margin-bottom: 10px;
     }
+
 
 h4 {
     font-family: 'IBM Plex Sans';
@@ -86,7 +87,23 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-size: 40px;
-    
+    color: #fff ;
+}
+
+
+.img-link1 {
+    position: absolute;
+    top:35px;
+    left: 70px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#fff;
 }
 
 .serrafina {
