@@ -55,7 +55,7 @@ h4 {
     line-height: 18px;
     text-align: center;
     letter-spacing: 0.100em;
-    margin-bottom: 10px;
+    margin: 10px;
     line-height: 1.5em;
     }
 
@@ -65,7 +65,7 @@ body {
     flex-direction: column;
     color: var(--color-second);
     margin: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 
@@ -106,10 +106,71 @@ body {
     color:#fff;
 }
 
+.img-link2 {
+    position: absolute;
+    top:40px;
+    left: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 25px;
+    color:#fff;
+}
+
+.img-link3 {
+    position: absolute;
+    top:35px;
+    left: 80px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 30px;
+    color:#fff;
+}
+
+
 .serrafina {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 
+}
+
+button {
+    background: #429ebd;
+    border: none;
+    font-family: 'IBM Plex Sans';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.100em;
+    margin-bottom: 10px;
+    line-height: 1.5em;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.botoes-agenda{
+    display: flex;
+    justify-content: space-around;  
+    align-items: center;
+    margin: 10px;
+   
+}
+
+button a {
+    text-decoration: none;
+    color: #fff;
 }
